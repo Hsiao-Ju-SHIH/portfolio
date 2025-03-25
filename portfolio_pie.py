@@ -5,6 +5,7 @@ import plotly.express as px
 import pandas as pd
 
 app = Dash(__name__, external_stylesheets=[dbc.themes.BOOTSTRAP])
+server = app.server
 
 # Updated dataset for PE LP firm with direct investments and fund holdings
 data = {
