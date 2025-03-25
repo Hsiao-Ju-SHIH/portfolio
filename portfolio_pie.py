@@ -9,8 +9,8 @@ server = app.server
 
 # Updated dataset for PE LP firm with direct investments and fund holdings
 data = {
-    "Investment": ["Public Equity 1", "Public Equity 2", "Private Direct 1", "Private Direct 2", 
-                   "Fund 1", "Fund 2", "Public Equity 3"],
+    "Investment": ["AAPL (Public)", "TSLA (Public)", "IKEA (Private)", "Huawei (Private)", 
+                   "Blackstone growth fund", "KKR value fund", "NVDA (Public)"],
     "Amount": [10000, 12000, 8000, 7000, 15000, 18000, 5000],  # Amounts in each investment
     "Asset Class": ["Public Equity", "Public Equity", "Private Direct", "Private Direct", 
                     "Fund", "Fund", "Public Equity"],  # Asset class of each investment
@@ -20,8 +20,8 @@ data = {
 
 # Fund holdings data: showing percentage of each fund's investment in each asset
 fund_holdings = {
-    "Fund": ["Fund 1", "Fund 1", "Fund 2", "Fund 2", "Fund 2"],
-    "Investment": ["Public Equity 1", "Private Direct 1", "Public Equity 2", "Private Direct 2", "Public Equity 4"],
+    "Fund": ["Blackstone growth fund", "Blackstone growth fund", "KKR value fund", "KKR value fund", "KKR value fund"],
+    "Investment": ["AAPL (Public)", "IKEA (Private)", "TSLA (Public)", "Huawei (Private)", "Public Equity 4"],
     "Holdings (%)": [0.60, 0.30, 0.50, 0.40, 0.75],  # Percentage of funds invested in each investment
 }
 
